@@ -13,12 +13,12 @@ setup(
     python_requires=">=3.7",
     install_requires=[
         "sam-algorithm==1.0.2",
-        "numpy==1.23.5",
-        "scanpy==1.9.3",
-        "hnswlib==0.7.0",
+        "numpy",
+        "scanpy>=1.9.3",
+        "hnswlib>=0.7.0",
         "dill",
-        "numba==0.56.3",
-        "h5py==3.8.0",
+        "numba>=0.56.3",
+        "h5py>=3.8.0",
         "leidenalg",
         "fast-histogram",
         "holoviews-samap"
